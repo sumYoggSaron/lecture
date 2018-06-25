@@ -10,5 +10,14 @@ ol{
 dl{
   border:2px solid blue;
   padding: 20px;
-  
+
+}
+
+dt{
+  text-decoration: underline;
+  font-size: 24px;
+  color: #f00f00;
+}
+dd{
+  margin: 0;
 }
