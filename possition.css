@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+
+.sub{
+  background-color: #ff0;
+  position: relative;
+  top: 100px;
+  left: 200px;
+  z-index: 2;
+}
+.quick{
+  background-color: pink;
+  position: fixed;
+  z-index: 3;
+  top:50px ;
+  right:50px ;
+}
+div{
+  position: relative;
+}
+p{
+  background-color: aqua ;
+}
+.note{
+  background-color: lime ;
+  position: absolute;
+  width: 300px;
+  top: 0;
+  left: 0;
+}
+
