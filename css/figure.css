@@ -1,0 +1,14 @@
+@charset "htf-8";
+
+div{
+  background-color: #ff0;
+  widows: 1200px;
+  height: 1300px;
+  margin:0 auto;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap; 
+}
+div figure{
+  margin: 0; 
+}
