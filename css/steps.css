@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+@keyframes steps{
+  0%{
+    background-position: 0 0 ;
+  }
+}
+100%{
+  background-position: 100% 0 ;
+  }
+}
+
+.box {
+  width: 50px;
+  height: 72px;
+  margin: 50px;
+  border: 1px solid #000000;
+  border-image: url("../images/steps/animation.png") 0 0 no-; 
+  animation: steps 1s steps(10) infinite ;
+}
+@keyframes intro-text{
+  0%
+
+}
+
+.intre-wrap{
+  box-sizign: border-box ;
+  width: 585px;
+  height: 366px;
+  padding: 30px;
+  margin: 50px solid#aaa;
+  background-image: url("../images/terminal.png")no-repeat 0 0;
+}
+.intro{
+  background-color: ;
+  white-space: nowrap ;
+  overflow: hidden;
+  animation: intro-text 1s;
+}
