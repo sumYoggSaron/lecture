@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+.wrap{
+  background-color:yellow;
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-d1irection: row;
+  justify-content: center;
+  align-items: row
+  borscsc
+}
+.wrap div{
+  background-color: pink;
+  flex-bpx:  200px}
+
+}
+.w1{
+  order: 1;
+}
+.w3{
+  order: -1;
+}
